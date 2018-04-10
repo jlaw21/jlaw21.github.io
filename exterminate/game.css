@@ -1,0 +1,115 @@
+#scoreboard{
+    text-align: center;
+}
+.button {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-color: black;
+    color: aqua;
+    font-size: 30px;
+    font-family: Georgia;
+    border: double;
+    border-color: orange;
+    border-radius: 10px;
+}
+.tbutton{
+    position: absolute;
+    top: 20%;
+    left: 10%;;
+    background-color: black;
+    color: aqua;
+    font-size: 30px;
+    font-family: Georgia;
+    border: double;
+    border-color: orange;
+    border-radius: 10px;
+}
+.hits{
+    color: aqua;
+    font-size:50px;
+    font-family: "Cooper Black";
+    border: groove;
+    background-color: RGBA(0, 0, 0, 0.9);
+    text-shadow: 4px 4px 15px #48D1CC;
+}
+.left{
+    border: groove;
+    background-color: RGBA(0, 0, 0, 0.9);
+    font-size: 27.8px;
+    font-family: Georgia;
+    float: left;
+    width: 205px;
+    height: 535px;
+    color:chartreuse;
+    text-shadow: 4px 4px 15px #7FFF00;
+}
+.right{
+    border: groove;
+    background-color: RGBA(0, 0, 0, 0.9);
+    font-size:  28px;
+    font-family: Georgia;
+    float: right;
+    width: 205px;
+    height: 535px;
+    color:chartreuse;
+    text-shadow: 4px 4px 15px #7FFF00;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: Elephant;
+    color: red;
+    text-shadow: 4px 4px 14px #000000;
+}
+.h1{
+    border: groove;
+background-image: url("supermario.jpg");
+    background-repeat: no-repeat;
+
+}
+body{
+    background: aqua;
+   background-image: url("sup.png");
+    background-size: 500px;
+    background-position: top;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.btn-primary{
+    color: white;
+    background-color: cornflowerblue;
+    border: hidden;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn-info{
+    color: white;
+    background-color: #48D1CC;
+    border: hidden;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn-danger{
+    color: red;
+    background-color: white;
+    border: hidden;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#like{
+    position: absolute;
+    bottom: 5%;
+    left: 39%;
+}
+#share{
+    position: absolute;
+    bottom: 5%;
+    left: 45%
+}
+#feedback{
+    position: absolute;
+    bottom: 5%;
+    left: 55%;
+}

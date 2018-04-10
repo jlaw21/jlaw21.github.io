@@ -1,0 +1,37 @@
+
+body{
+    background-color: rgb(253,207,88);
+}
+
+.q1, .q2, .q3,.q1-choice, .q2-choice, .q3-choice{
+    display:none;
+}
+.title{
+    padding-top: 5px;
+}
+.content{
+    text-align: center;
+    background: rgb(117,118,118);
+    margin: 0px;
+}
+.sidebar{
+    float: left;
+    width: 15%;
+    height: 600px;
+    background-color: rgb(242,125,12);
+    color:rgb(128,9,9);
+    margin: 0px;
+    
+}
+.answer{
+    color: rgb(128,9,9);
+    font-size: 24px;
+}
+.narrative{
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+button{
+    margin: 20px;
+}

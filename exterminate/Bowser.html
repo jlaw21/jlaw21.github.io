@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bowser</title>
+    <script type="text/javascript" src="simpleGame.js"></script>
+    <script type="text/javascript">
+
+        var scene;
+        var bowser;
+        var Kart;
+
+        function Bowser() {
+
+            tBowser = new Sprite(scene, "bowser.png", 50, 50);
+            tBowser.setSpeed(0);
+            tBowser.setAngle(90);
+            tBowser.maxSpeed = 7;
+            tBowser.minSpeed = -7;
+            tBowser.checkKeys = function () {
+
+                if(keysDown[K_LEFT]){
+                    this.changeSpeedBy(-1);
+                    if(this.speed < this.minSpeed){
+                        this.setSpeed(this.minSpeed);}
+                }
+                if(keysDown[K_RIGHT]){
+                    this.changeSpeedBy(1);
+                    if(this.speed > this.maxSpeed){
+                        this.setSpeed(this.maxSpeed);
+                    }
+                }
+            };
+            return tBowser;
+        }
+
+        function init(){
+            scene = new Scene();
+            scene.setSize(640,480);
+            Kart = new Sprite(scene, "kart.jpg", 500, 550);
+            Kart.setSpeed(0);
+            bowser = new Bowser();
+            scene.start();
+        }
+
+        function update(){
+            scene.clear();
+            Kart.update();
+            bowser.checkKeys();
+            bowser.update();
+        }
+    </script>
+
+
+</head>
+<body onload = "init()">
+
+</body>
+</html>

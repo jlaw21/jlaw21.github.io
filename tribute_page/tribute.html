@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+    <meta charset="UTF-8">
+    <title>Jalen Massey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"/>
+    <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $("#picQuote").css("background-color", "white");
+        //$("#bioBtn").addClass("animated shake");
+        //$("#picQuote").addClass("animated bounce");
+
+        $("#bioBtn").click(function(){ //essentially like an onclick function
+            $("#bio").slideToggle("fast");
+        });
+
+        $("#achiBtn").click(function(){ //essentially like an onclick function
+            $("#achievements").slideToggle("fast");
+        });
+
+        $("#eduBtn").click(function(){ //essentially like an onclick function
+            $("#education").slideToggle("fast");
+        });
+
+        $("#workBtn").click(function(){ //essentially like an onclick function
+            $("#work").slideToggle("fast");
+        });
+
+        $("#codeBtn").click(function(){ //essentially like an onclick function
+            $("#code").slideToggle("fast");
+        });
+
+        $("#emailBtn").click(function(){ //essentially like an onclick function
+            $("#email").slideToggle("fast");
+        });
+    });
+</script>
+
+<style>
+
+    *{
+        font-family: Raleway, "Trebuchet MS", "Arial", "SansSerif";
+    }
+
+    .btn{
+        background-color: #e1e5e8;
+        border: 2px solid red;
+    }
+
+    #bio, #achievements, #education, #work, #code, #email{
+        display: none;
+    }
+    #broPic{
+        border: 2px solid white;
+        border-radius: 4%;
+    }
+
+    .row{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #quote{
+        font-size: 26px;
+        position: relative;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    .info{
+        background-color: #1D1F21;
+        text-align: center;
+        margin-top: 1%;
+
+    }
+
+    #mainDiv{
+        margin-top: 1%;
+    }
+
+    #about, #examples, #btnDiv, #workDiv{
+        background-color: #1D1F21;
+        border: 5px solid #1D1F21;
+
+    }
+
+    #aboutJay, #workExamples{
+        border: 2px solid white;
+        border-radius: 10px;
+
+    }
+
+    .boxHeadings{
+        color: white;
+        padding-bottom: 8px;
+        border-bottom: solid 1px white;
+    }
+
+    #banner, #footer{
+        height: 100px;
+        width: 100%;
+        background-image: url("programming.png");
+    }
+
+    h1{
+        position: absolute;
+        color: white;
+        margin-top: 2%;
+        margin-left: 24%;
+    }
+
+    ul{
+        display: inline-block;
+    }
+
+    .text{
+        color: white;
+    }
+
+    #copyright{
+        text-align: end;
+        color: white;
+        margin-top: 4.5%;
+        position: absolute;
+        margin-left: 88%;
+    }
+
+    #wrap{
+        background-color: #e1e5e8;
+    }
+
+</style>
+</head>
+<body>
+<br><center><div id="banner"><h1>Jalen Massey: Programmer, Musician, and Brother</h1></div></center><br>
+<div id="mainDiv" class="container-fluid">
+    <div id="wrap">
+        <div class="row">
+            <div id="picQuote">
+                <div class="col-md-offset-4 col-md-2">
+                    <img id="broPic" src="brother.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-5">
+                    <br><br>
+                    <p id="quote">"Be the change you want<br>to see in the world."
+                        <br><span>~<em>Not a quote from Jalen, though he still lives by it</em></span>
+                    </p>
+                </div>
+            </div>
+        </div><br>
+        <div class="row">
+                <div id="aboutJay" class="col-md-3 info  col-md-offset-3"><div id="about"><h4 class="boxHeadings">About Him</h4></div>
+                <div id="btnDiv">
+                    <button id="bioBtn" class="btn">Bio</button>
+                    <p id="bio" class="text">Jalen Massey, born on August 11, 1994, is an experienced programmer, musician, and life
+                        teacher to his younger sister. His mother and sibling are extremely proud of who he has become, as well as
+                        how he accomplished the goals he set for himself. Even though he has fulfilled his aspiration of
+                        working as a professional software developer, he continues to challenge himself further by taking up
+                        more knowledge within the field.</p>
+                    <br><br>
+                    <button id="achiBtn" class="btn">Achievements & Awards</button>
+                    <ul id="achievements" class="text">
+                        <li>
+                            Ball State Summer Program, Top Scholar, 2008
+                        </li>
+                        <li>
+                            ISSMA Marching Band State Finalist 2008, 2010
+                        </li>
+                        <li>
+                            Academic Honors Graduate
+                        </li>
+                        <li>
+                            University of Evansville, Dean's List, Fall 2015
+                        </li>
+                        <li>
+                            University of Evansville, Principle Percussionist, 2015-2016
+                        </li>
+                        <li>
+                            Being an awesome sibling
+                        </li>
+                    </ul>
+                    <br><br>
+                    <button id="eduBtn" class="btn">Education</button>
+                    <ul id="education" class="text">
+                        <li>
+                            High School: Warren Central High School (Core 40 & Academic Honors, 2012)
+                        </li>
+                        <li>
+                            Postsecondary Education: University of Evansville (Bachelors Degree, 2016)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <div id="workExamples" class="col-md-3 info">
+                <div id="examples"><h4 class="boxHeadings">Portfolio & Examples</h4></div>
+                <div id="workDiv">
+                    <button id="workBtn" class="btn">Work</button><br>
+                    <div id="work" class="text">
+                        Name: Digital Primates
+                        <br>
+                        Website: <a href="http://www.digitalprimates.net/">http://www.digitalprimates.net/</a>
+                        <br>
+                        Location: Chicago, Illinois
+                        <br>
+                        Portfolio: <a href="https://www.linkedin.com/in/jalen-massey-9b5bb8111?trk=hp-identity-name">LinkedIn</a>
+                    </div>
+                    <br>
+                    <button id="codeBtn" class="btn">"Just For Fun" CodePen Examples</button>
+                    <div id="code" class="text">
+                        <ul>
+                            <li><a href="https://codepen.io/jmass94/pen/qRXawj">iPhone CSS Drawing</a></li>
+                            <li><a href="https://codepen.io/jmass94/pen/dOYpLX">Random Color Generator</a></li>
+                            <li><a href="https://codepen.io/jmass94/pen/YNZmWa">Microsoft-Like Panel</a></li>
+                        </ul>
+                    </div>
+                    <br><br>
+                    <button id="emailBtn" class="btn">Contact</button>
+                    <div id="email" class="text">
+                        <a href="#">jmassey@totallynothisemail.com</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <br>
+    </div>
+<div id="footer"><p id="copyright">Created by Justice Massey</p></div>
+</body>
+<!--Achievements:
+
+
+
+-->
+</html>
