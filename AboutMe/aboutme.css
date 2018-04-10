@@ -1,0 +1,38 @@
+body{
+    background-color: darkseagreen;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 32px;
+    background-color: rgb(0, 135, 3);
+    background-color: rgba(0, 135, 3, 0.5);
+    color: antiquewhite;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 72px;
+    color: #04326B;
+}
+
+p{
+    font-family: 'Sintony', sans-serif;
+    font-size: 26px;
+    line-height: 1.2em;
+    color: darkslategray;
+}
+
+li{
+    font-family: 'Rockwell', serif;
+    font-size: 24px;
+    color: darkslategray;
+    line-height: 1.4em;
+}
+
+a{
+    color: rgb(2, 30, 64);
+
+}
+

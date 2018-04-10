@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type="text/javascript"
+            src = "simpleGame.js"></script>
+    <script type="text/javascript"
+            src = "Java.js"></script>
+    <link rel = "stylesheet" href = "CSS.css">
+
+    </head>
+
+<body  onload="init()" class = "body">
+
+<center>
+    <div id = "head">
+        <h1 class = "title"><b>Crusade</b></h1>
+
+        <h2 class = "title"><b><i>Created by Joshua Moser</i></b></h2>
+
+        <button onclick="restart()" class = "btn-danger "> Play Again </button>
+        <br><br>
+        <div id = "time" class = "time"></div>
+
+    </div>
+
+    <div id = "left">
+        <div id = "description" class="info">
+            <p>You play as Sir Edward, a knight on a quest to become king. <br/>You must get the crown to win and take your place on the throne.</p>
+        </div>
+    </div>
+    <div id = "right">
+        <div id = "controls" class="info">
+            <br><ul class="list-unstyled">
+            <li><span class="glyphicon glyphicon-triangle-left"></span><span class="glyphicon glyphicon-triangle-right"></span> - MOVE</li>
+            <li><span class="glyphicon glyphicon-triangle-top"></span> - CLIMB LADDER</li>
+            <li>SPACE - JUMP</li>
+            <li class = "text-nowrap" >CLICK - HIDE BACKGROUND</li>
+        </ul>
+        </div>
+    </div>
+</center>
+
+</body>
+</html>
