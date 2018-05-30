@@ -31,14 +31,14 @@ div{
     margin-right: 15%;
 }
 
-li{
+.listItems{
     font-family: 'Rockwell', serif;
     font-size: 24px;
     color: darkslategray;
     line-height: 1.4em;
 }
 
-li:hover{
+.listItems li:hover{
     font-size: 36px;
 }
 
