@@ -1,0 +1,79 @@
+.container{
+    padding: 80px 120px;
+}
+
+.moviePic{
+    opacity: 0.7;
+}
+
+.moviePic:hover{
+    opacity: 1.0;
+}
+
+.boxOffice{
+    background-color: slategrey;
+    color: white;
+}
+
+.menuChoices a{
+    color: black;
+}
+
+.menuChoices a:hover{
+    color: blueviolet
+}
+
+.btn{
+    background-color: tan
+}
+
+.ratingList{
+    padding: 10px;
+}
+
+
+.ratingNum{
+    float: right;
+}
+
+.dropdown{
+    padding: 10px;
+}
+
+.characters{
+    background-color: slategray;
+}
+.nav-item{
+    padding: 2px;
+}
+.headshots{
+    float: right;
+    padding: 3px;
+    max-width: 100%;
+    height:auto;
+}
+footer{
+    padding: 10px;
+    font-size: 12px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    margin-bottom: 1px;
+    border: 0;
+}
+#title{
+    border: 0;
+    margin-bottom: 0;
+}
+.nav-link{
+    color: black;
+}
+@media only screen and (min-width: 600px){
+    .headshots{
+        max-width: 50%;
+    }
+}
+

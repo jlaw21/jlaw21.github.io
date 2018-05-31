@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href='style2.css'>
+        <title>Star Wars</title>
+    </head>
+    <body>
+        <section class='text-center jumbotron' id='title'>
+            <h3 class='display-4'>Star Wars: The Best Trilogy</h3>
+            <p>May the force be with you!</p>
+            <p>Star Wars is still one of the leading blockbuster hits of all time. With the releases of Episodes 1, 2 and 3 and the current releases of 7, 8 and 9, Star Wars is once again gaining momentum in pop culture. However, we cannot let the fancy visual effects and stunning action sequences take away from the true meaning: the story. This is why Episodes 4, 5, and 6 are, and forever will be, the best Star Wars trilogy.</p>
+        </section>
+        <nav class='navbar navbar-expand-md bg-dark navbar-dark sticky-top'>
+            <a class='navbar-brand' href='#'>DO OR DO NOT</a>
+            <button class="navbar-toggler" type='button' data-toggle="collapse" data-target="#headings"><span class='navbar-toggler-icon'></span>
+            </button>
+            <div class='collapse navbar-collapse' id='headings'>
+                <ul class='navbar-nav'>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='#pictures'>Pictures</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='#summary'>Summary</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='#boxOffice'>Money</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='#critics'>Ratings</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='#characters'>Characters</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class='carousel slide container-fluid' id='pictures' data-ride='carousel' height='450px'>
+            <ul class='carousel-indicators'>
+                <li data-target='#pictures' data-slide-to='0' class='active'></li>
+                <li data-target='#pictures' data-slide-to='1'></li>
+                <li data-target='#pictures' data-slide-to='2'></li>
+            </ul>
+            <div class='carousel-inner'>
+                <div class='carousel-item active'>
+                    <img src='http://www2.pictures.zimbio.com/mp/jcjeeVMJu2_l.jpg' alt="The Mighty Chewbacca">
+                </div>
+                <div class='carousel-item'>
+                    <img src='https://imperialtalker.files.wordpress.com/2015/07/yoda-on-dagobah-3.jpg' alt="Yoda on Dagobah">
+                </div>
+                <div class='carousel-item'>
+                    <img src='https://lumiere-a.akamaihd.net/v1/images/databank_ewok_01_169_747db03a.jpeg' alt="The Ewoks">
+                </div>
+
+            </div>
+        </section>        
+        <section class='container text-center' id='summary'>
+            <div class = 'row'>
+                <div class='col-lg-4'>
+                    <div>
+                        <h5>A NEW HOPE</h5>
+                        <a href="#des0" data-toggle='collapse'><img class= "img-thumbnail img-fluid moviePic" src="https://images-na.ssl-images-amazon.com/images/I/51v9VH4qD3L.jpg" alt="A New Hope DVD Cover"></a>
+                    </div>
+                    <div id='des0' class='collapse'>
+                        <p>The Imperial Forces -- under orders from cruel Darth Vader -- hold Princess Leia hostage, in their efforts to quell the rebellion against the Galactic Empire. Luke Skywalker and Han Solo, captain of the Millennium Falcon, work together with the companionable droid duo R2-D2 and C-3PO to rescue the beautiful princess, help the Rebel Alliance, and restore freedom and justice to the Galaxy.</p>
+                    </div>                    
+                </div>
+                <div class='col-lg-4'>
+                    <div>
+                        <h5>THE EMPIRE STRIKES BACK</h5>
+                        <a href="#des1" data-toggle='collapse'><img class= "img-thumbnail img-fluid moviePic" src="https://images-na.ssl-images-amazon.com/images/I/51-MP3YPhrL.jpg" alt="Empire Strikes Back DVD Cover"></a>
+                    </div> 
+                    <div id='des1' class='collapse'>
+                        <p>The adventure continues in this "Star Wars" sequel. Luke Skywalker, Han Solo, Princess Leia and Chewbacca face attack by the Imperial forces and its AT-AT walkers on the ice planet Hoth. While Han and Leia escape in the Millennium Falcon, Luke travels to Dagobah in search of Yoda. Only with the Jedi master's help will Luke survive when the dark side of the Force beckons him into the ultimate duel with Darth Vader.</p>
+                    </div>                    
+                </div>
+                <div class='col-lg-4'>
+                    <div>
+                       <h5>RETURN OF THE JEDI</h5>
+                        <a  href="#des2" data-toggle='collapse'><img class= "img-thumbnail img-fluid moviePic" src="https://images-na.ssl-images-amazon.com/images/I/51ELRnj3VnL.jpg" alt="Return of the Jedi DVD Cover"></a> 
+                    </div>
+                    <div id='des2' class='collapse'>
+                        <p>Luke Skywalker battles horrible Jabba the Hut and cruel Darth Vader to save his comrades in the Rebel Alliance and triumph over the Galactic Empire. Han Solo and Princess Leia reaffirm their love and team with Chewbacca, Lando Calrissian, the Ewoks and the androids C-3PO and R2-D2 to aid in the disruption of the Dark Side and the defeat of the evil emperor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='container-fluid boxOffice' id='boxOffice'>
+            <h4>The Value of a Good Story</h4>
+            <p>Many know that George Lucas created many of the effects used in the Trilogy. At the time of release, Star Wars was on the cutting edge of visual effects and computer graphics. However, as time progressed, effects got better, but the cost did as well. We will compare the overall income produces vs. the cost of production.</p>
+            <table class='table table-striped'>
+                <thead>
+                    <tr>
+                        <th>Movie</th>
+                        <th>Production Cost</th>
+                        <th>Global Income</th>
+                        <th>Value of the Story</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>The 1st Trilogy</td>
+                        <td>$345,000,000</td>
+                        <td>$2,532,739,169</td>
+                        <td>$2,187,739,169</td>
+                    </tr>
+                    <tr>
+                        <td>The 2nd Trilogy</td>
+                        <td>$66,500,000</td>
+                        <td>$1,893,475,046</td>
+                        <td>$1,826,975,046</td>
+                    </tr>
+                    <tr>
+                        <td>The 3rd Trilogy</td>
+                        <td>$506,000,000</td>
+                        <td>$3,376,786,127</td>
+                        <td>$2,870,786,127</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Ok, so maybe this doesn't show conclusively that the story matters, but we'll chalk this one up to inflation. </p>
+        </section>
+        <section class='container criticRating' id='critics'>
+            <header>
+                <h4>Critically Acclaimed Story</h4>
+                <p>Money isn't the only deciding factor. We could look at the reviews and ratings for each movie. Choose a movie from the dropdown list to see it's ratings and reviews.</p>
+            </header>
+            <article class='row'>
+                <div class='dropdown col-lg-4'>
+                    <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>Pick a Movie</button>
+                    
+                    <ul class='dropdown-menu menuChoices'>
+                        <li><a href='#rat0' data-toggle='collapse'>THE PHANTOM MENACE</a></li>
+                        <li><a href='#rat1' data-toggle='collapse'>ATTACK OF THE CLONES</a></li>
+                        <li><a href='#rat2' data-toggle='collapse'>REVENGE OF THE SITH</a></li>
+                        <li><a href='#rat3' data-toggle='collapse'>A NEW HOPE</a></li>
+                        <li><a href='#rat4' data-toggle='collapse'>THE EMPIRE STRIKES BACK</a></li>
+                        <li><a href='#rat5' data-toggle='collapse'>RETURN OF THE JEDI</a></li>
+                        <li><a href='#rat6' data-toggle='collapse'>THE FORCE AWAKENS</a></li>
+                        <li><a href='#rat7' data-toggle='collapse'>THE LAST JEDI</a></li>
+                    </ul>
+                </div>
+                <div class='col-lg-8 ratingList' id='parent'>
+                    <div id='rat0' class='collapse' data-parent="#parent">
+                        <ul class='list-group'>
+                            <li class='list-group-item'>Metacritic<span class='badge badge-dark ratingNum'>51</span></li>
+                            <li class='list-group-item'>Rotten Tomatoes<span class='badge badge-dark ratingNum'>55</span></li>
+                        </ul>
+                    </div>
+                    <div id='rat1' class='collapse' data-parent="#parent">
+                        <ul class='list-group'>
+                            <li class='list-group-item'>Metacritic<span class='badge badge-dark ratingNum'>54</span></li>
+                            <li class='list-group-item'>Rotten Tomatoes<span class='badge badge-dark ratingNum'>66</span></li>
+
+                        </ul>
+                    </div>
+                    <div id='rat2' class='collapse' data-parent="#parent">
+                        <ul class='list-group'>
+                            <li class='list-group-item'>Metacritic<span class='badge badge-dark ratingNum'>68</span></li>
+                            <li class='list-group-item'>Rotten Tomatoes<span class='badge badge-dark ratingNum'>79</span></li>
+                        </ul>
+                    </div>
+                    <div id='rat3' class='collapse' data-parent="#parent">
+                        <ul class='list-group'>
+                            <li class='list-group-item'>Metacritic<span class='badge badge-dark ratingNum'>90</span></li>
+                            <li class='list-group-item'>Rotten Tomatoes<span class='badge badge-dark ratingNum'>93</span></li>
+                        </ul>
+                    </div>
+                    <div id='rat4' class='collapse' data-parent="#parent">
+                        <ul class='list-group'>
+                            <li class='list-group-item'>Metacritic<span class='badge badge-dark ratingNum'>82</span>
+                            </li>
+                            <li class='list-group-item'>Rotten Tomatoes<span class='badge badge-dark ratingNum'>95</span></li>
+                        </ul>
+                    </div>
+                    <div id='rat5' class='collapse' data-parent="#parent">
+                        <ul class='list-group'>
+                            <li class='list-group-item'>Metacritic<span class='badge badge-dark ratingNum'>58</span>
+                            </li>
+                            <li class='list-group-item'>Rotten Tomatoes<span class='badge badge-dark ratingNum'>80</span></li>
+                        </ul>
+                    </div>
+                    <div id='rat6' class='collapse' data-parent="#parent">
+                        <ul class='list-group'>
+                            <li class='list-group-item'>Metacritic<span class='badge badge-dark ratingNum'>81</span>
+                            </li>
+                            <li class='list-group-item'>Rotten Tomatoes<span class='badge badge-dark ratingNum'>93</span></li>
+                        </ul>
+                    </div>
+                    <div id='rat7' class='collapse' data-parent="#parent">
+                        <ul class='list-group'>
+                            <li class='list-group-item'>Metacritic<span class='badge badge-dark ratingNum'>85</span>
+                            </li>
+                            <li class='list-group-item'>Rotten Tomatoes<span class='badge badge-dark ratingNum'>91</span></li>
+                        </ul>
+                    </div>
+                </div>    
+            </article>            
+        </section>
+        <section class='container-fluid characters' id='characters'>
+            <header>
+                <h3>Meet the Characters</h3>
+                <ul class='nav nav-tabs' role='tab-list'>
+                    <li class='nav-item'>
+                        <a class='nav-link active' data-toggle='tab' href='#luke'>Luke</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' data-toggle='tab' href='#leia'>Leia</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' data-toggle='tab' href='#han'>Han</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' data-toggle='tab' href='#anakin'>Anakin</a>
+                    </li>
+                </ul>  
+            </header>
+            <section class='tab-content'>
+                <article class='tab-pane container active' id='luke'>
+                    <h2>Luke Skywalker</h2>
+                    <h6>taken from <a href="https://www.starwars.com/databank">Starwars.com</a></h6>
+                    <img src="https://fsmedia.imgix.net/1e/c0/22/d8/8ce9/4d63/8217/658d316403a0/mark-hamill-has-a-sexy-theory-about-luke-skywalker-returning-to-star-wars.jpeg" class='rounded-circle headshots'>
+                    <p>
+                            Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil.
+                    </p>
+                </article>
+                <article class='tab-pane container fade' id='leia'>
+                    <h2>Leia Organa</h2>
+                    <h6>taken from <a href="https://www.starwars.com/databank">Starwars.com</a></h6>
+                    <img src="https://vafloc02.s3.amazonaws.com/isyn/images/f103/img-2009103-f.jpg" class='rounded-circle headshots'>
+                    <p>
+                        Princess Leia Organa was one of the Rebel Alliance’s greatest leaders, fearless on the battlefield and dedicated to ending the tyranny of the Empire. Daughter of Padmé Amidala and Anakin Skywalker, sister of Luke Skywalker, and with a soft spot for scoundrels, Leia ranks among the galaxy’s great heroes. But life under the New Republic has not been easy for Leia. Sidelined by a new generation of political leaders, she struck out on her own to oppose the First Order as founder of the Resistance. These setbacks in her political career have been accompanied by more personal losses.
+                    </p>
+                </article>
+                <article class='tab-pane container fade' id='han'>
+                    <h2>Han Solo</h2>
+                    <h6>taken from <a href="https://www.starwars.com/databank">Starwars.com</a></h6>
+                    <img src="http://digitalspyuk.cdnds.net/16/22/980x490/landscape-1464880550-1422267778-harrison-ford-han-solo1.jpg" class='rounded-circle headshots'>
+                    <p>
+                        Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.
+                    </p>
+                </article>
+                <article class='tab-pane container fade' id='anakin'>
+                        <h2>Anakin Skywalker</h2>
+                        <h6>taken from <a href="https://www.starwars.com/databank">Starwars.com</a></h6>
+                        <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-1t08ej6_c4b09b0e.jpeg" class='rounded-circle headshots'>
+                        <p>
+                            Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin Skywalker had the potential to become one of the most powerful Jedi ever, and was believed by some to be the prophesied Chosen One who would bring balance to the Force. A hero of the Clone Wars, Anakin was caring and compassionate, but also had a fear of loss that would prove to be his downfall.
+                        </p>
+                    </article>
+            </section>
+        </section>
+        <footer height='100px'>
+            <header class='text-center'>created by Joshua Law</header>
+            <article>
+                <p class='disclaimer text-center'>This website was created to demonstrate bootstrap capabilities in a public school. All uses are for educational purposes.</p>
+            </article>
+        </footer>
+    </body>
+</html>
