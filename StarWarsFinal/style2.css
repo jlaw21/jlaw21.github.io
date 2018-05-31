@@ -74,5 +74,8 @@ footer{
     .headshots{
         max-width: 50%;
     }
+    .characters{
+        height: 700px;
+    }
 }
 
